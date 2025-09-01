@@ -98,18 +98,6 @@ export default function LoginForm() {
               />
             </div>
 
-            <div className="flex items-center justify-between text-sm">
-              <label className="flex items-center gap-2">
-                <input type="checkbox" className="rounded border-gray-300" />
-                Remember me
-              </label>
-              <a
-                href="/forgot-password"
-                className="text-indigo-600 hover:underline"
-              >
-                Forgot password?
-              </a>
-            </div>
 
             <motion.button
               type="submit"
